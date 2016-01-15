@@ -1,0 +1,37 @@
+{
+  "name": "gist-cli",
+  "version": "0.0.1",
+  "description": "Push files as gists to github.com",
+  "license": "MIT",
+  "repository": "asnelzin/gist-cli",
+  "author": {
+    "name": "Alexander Nelzin",
+    "email": "asnelzin@gmail.com",
+    "url": "asnelzin.ru"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "gist",
+    "github"
+  ],
+  "dependencies": {
+    "got": "^6.0.2",
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
